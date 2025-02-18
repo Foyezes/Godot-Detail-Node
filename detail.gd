@@ -7,7 +7,7 @@ func _get_name():
 func _get_category():
 	return "Color"
 func _get_description():
-	return "Blend two normal and albedo maps"
+	return "Blend a secondary albedo and normal map & add more detail"
 func _get_return_icon_type():
 	return VisualShaderNode.PORT_TYPE_VECTOR_3D
 func _get_input_port_count():
